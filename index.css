@@ -1,0 +1,75 @@
+body {
+  background-image: url("carpark.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #000;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  background-color: #d5b7a4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "MedievalSharp", cursive;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+#save-el {
+  font-family: "MedievalSharp", cursive;
+  font-size: 25px;
+  text-shadow: 0 0 10px #000;
+}
+
+button {
+  border: 1px solid #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+#increment-btn {
+  background: #382d24;
+  transition: all 0.5s ease-in-out;
+}
+
+#increment-btn:hover {
+  background: #a67f32;
+  color: #000;
+}
+
+#save-btn {
+  background: #382d24;
+  transition: all 0.5s ease-in-out;
+}
+
+#save-btn:hover {
+  background: #a67f32;
+  color: black;
+}
